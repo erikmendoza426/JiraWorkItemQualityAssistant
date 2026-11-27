@@ -1,0 +1,15 @@
+{
+  "id": 303,
+  "title": "Cart total is wrong after removing an item",
+  "type": "Bug",
+  "description": "After removing an item from the cart, the cart total does not update until the page is reloaded.\nSteps to reproduce: 1) Add two different items to the cart. 2) Click Remove on the first item. 3) Look at the total.\nExpected: total equals the price of the remaining item immediately.\nActual: total still includes the removed item until refresh.\nEnvironment: web app, Chrome, staging.",
+  "acceptance_criteria": [],
+  "tags": [
+    "cart",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "High Quality",
+    "known_gaps": []
+  }
+}

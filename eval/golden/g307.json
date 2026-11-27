@@ -1,0 +1,19 @@
+{
+  "id": 307,
+  "title": "Improve search",
+  "type": "User Story",
+  "description": "Search doesn't work well. Make it better.",
+  "acceptance_criteria": [],
+  "tags": [
+    "search",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Needs Clarification",
+    "known_gaps": [
+      "Vague behavior: what is wrong with current search",
+      "No acceptance criteria",
+      "No definition of 'better' (relevance, speed, filters?)"
+    ]
+  }
+}

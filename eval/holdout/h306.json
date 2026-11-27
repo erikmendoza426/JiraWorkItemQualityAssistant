@@ -1,0 +1,21 @@
+{
+  "id": 306,
+  "title": "Show 'Admin' badge next to admin names in order notes",
+  "type": "User Story",
+  "description": "As a customer I want to see an 'Admin' badge next to messages written by our admins in the order notes so that I know who is replying. This only changes how existing notes are displayed; no permissions or data change.",
+  "acceptance_criteria": [
+    "Notes written by admins show an 'Admin' badge next to the author name",
+    "Notes written by customers show no badge",
+    "The badge is visible on desktop and mobile layouts"
+  ],
+  "tags": [
+    "orders",
+    "ui",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "High Quality",
+    "known_gaps": []
+  },
+  "_note": "Display-only change that contains the word 'admin'. rules.py will wrongly force Manual Review (false positive). Tests whether the keyword rules are too broad."
+}

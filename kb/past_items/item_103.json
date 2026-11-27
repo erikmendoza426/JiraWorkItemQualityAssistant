@@ -1,0 +1,20 @@
+{
+  "id": 103,
+  "title": "App crashes on payment",
+  "type": "Bug",
+  "description": "Payment page crashes sometimes.",
+  "acceptance_criteria": [],
+  "tags": [
+    "payments",
+    "needs-refinement"
+  ],
+  "outcome": {
+    "category": "Needs Clarification",
+    "gaps": [
+      "No repro steps",
+      "No expected vs actual behavior",
+      "No environment/version"
+    ],
+    "note": "Reporter added steps after clarification round."
+  }
+}

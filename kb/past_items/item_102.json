@@ -1,0 +1,20 @@
+{
+  "id": 102,
+  "title": "Make checkout better",
+  "type": "User Story",
+  "description": "Checkout is confusing. Improve it.",
+  "acceptance_criteria": [],
+  "tags": [
+    "checkout",
+    "needs-refinement"
+  ],
+  "outcome": {
+    "category": "Needs Clarification",
+    "gaps": [
+      "Vague behavior",
+      "No acceptance criteria",
+      "No definition of 'better'"
+    ],
+    "note": "PO answered: reduce checkout to a single page; added criteria."
+  }
+}

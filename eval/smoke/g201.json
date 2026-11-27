@@ -1,0 +1,17 @@
+{
+  "id": 201,
+  "title": "Add wishlist",
+  "type": "User Story",
+  "description": "Users want a wishlist.",
+  "acceptance_criteria": [],
+  "tags": [
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Needs Clarification",
+    "known_gaps": [
+      "No acceptance criteria",
+      "Unclear behavior (add/remove? sharing? limits?)"
+    ]
+  }
+}

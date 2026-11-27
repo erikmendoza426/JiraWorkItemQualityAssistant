@@ -1,0 +1,18 @@
+{
+  "id": 202,
+  "title": "Apply promo code at checkout",
+  "type": "User Story",
+  "description": "As a shopper I want to enter a promo code at checkout so that I get a discount.",
+  "acceptance_criteria": [
+    "Valid code reduces total by the code's percentage",
+    "Invalid code shows an error and leaves total unchanged",
+    "Only one code may be applied per order"
+  ],
+  "tags": [
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "High Quality",
+    "known_gaps": []
+  }
+}

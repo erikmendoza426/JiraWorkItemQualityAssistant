@@ -1,0 +1,21 @@
+{
+  "id": 302,
+  "title": "Filter order history by date range",
+  "type": "User Story",
+  "description": "As a shopper I want to filter my order history by start and end date so that I can find a past purchase quickly.",
+  "acceptance_criteria": [
+    "Selecting a start and end date shows only orders placed within that range, inclusive",
+    "If the end date is before the start date, an inline error is shown and the list is unchanged",
+    "Clearing the filter restores the full list",
+    "If no orders match, the page shows 'No orders found'"
+  ],
+  "tags": [
+    "orders",
+    "ui",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "High Quality",
+    "known_gaps": []
+  }
+}

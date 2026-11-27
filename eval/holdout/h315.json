@@ -1,0 +1,19 @@
+{
+  "id": 315,
+  "title": "Split the orders service into two services",
+  "type": "Task",
+  "description": "Split the orders service into an order-intake service and an order-fulfillment service, moving the related code and tables to each.",
+  "acceptance_criteria": [
+    "Order-intake and order-fulfillment run as separate services",
+    "All existing order flows keep working"
+  ],
+  "tags": [
+    "architecture",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Requires Manual Review",
+    "known_gaps": []
+  },
+  "_note": "Large refactor. No rules.py keywords except possibly 'tables'; tests the LLM."
+}

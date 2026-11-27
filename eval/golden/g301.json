@@ -1,0 +1,21 @@
+{
+  "id": 301,
+  "title": "Show low-stock badge on product page",
+  "type": "User Story",
+  "description": "As a shopper I want to see when an item is almost sold out so that I can decide to buy it before it runs out.",
+  "acceptance_criteria": [
+    "When stock is between 1 and 5, the product page shows 'Only N left' with the current count",
+    "When stock is 0, the page shows 'Out of stock' and the Add to cart button is disabled",
+    "When stock is above 5, no badge is shown",
+    "The badge updates when the page is refreshed after a stock change"
+  ],
+  "tags": [
+    "inventory",
+    "ui",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "High Quality",
+    "known_gaps": []
+  }
+}

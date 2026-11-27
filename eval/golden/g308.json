@@ -1,0 +1,20 @@
+{
+  "id": 308,
+  "title": "Inventory count is off sometimes",
+  "type": "Bug",
+  "description": "Sometimes the inventory number doesn't match the warehouse. Please fix.",
+  "acceptance_criteria": [],
+  "tags": [
+    "inventory",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Needs Clarification",
+    "known_gaps": [
+      "No repro steps",
+      "No expected vs actual numbers",
+      "No example SKU or time frame",
+      "No environment"
+    ]
+  }
+}

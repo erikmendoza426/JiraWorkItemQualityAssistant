@@ -1,0 +1,22 @@
+{
+  "id": 312,
+  "title": "Support multiple currencies",
+  "type": "User Story",
+  "description": "As an international shopper I want to see prices in my own currency so that I understand what I'm paying.",
+  "acceptance_criteria": [
+    "Prices display correctly in other currencies"
+  ],
+  "tags": [
+    "pricing",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Needs Clarification",
+    "known_gaps": [
+      "Which currencies",
+      "Source and refresh rate of exchange rates",
+      "Rounding rules",
+      "Criterion is untestable ('correctly')"
+    ]
+  }
+}

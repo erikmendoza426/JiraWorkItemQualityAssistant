@@ -1,0 +1,19 @@
+{
+  "id": 313,
+  "title": "Raise production DB connection pool and change autoscaling",
+  "type": "Task",
+  "description": "Increase the orders database connection pool from 20 to 80 and change the production autoscaling rule to scale at 60% CPU instead of 80%.",
+  "acceptance_criteria": [
+    "Pool size is 80 in production",
+    "Autoscaling triggers at 60% CPU"
+  ],
+  "tags": [
+    "infra",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Requires Manual Review",
+    "known_gaps": []
+  },
+  "_note": "Production infrastructure change. Contains keyword 'production'."
+}

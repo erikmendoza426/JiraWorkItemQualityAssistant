@@ -1,0 +1,18 @@
+{
+  "id": 106,
+  "title": "Show order confirmation email",
+  "type": "User Story",
+  "description": "As a shopper I want an email after purchase listing my items and total so that I have a receipt.",
+  "acceptance_criteria": [
+    "Email sent within 1 minute of successful payment",
+    "Email lists each item, quantity, and total",
+    "No email is sent if payment fails"
+  ],
+  "tags": [
+    "orders"
+  ],
+  "outcome": {
+    "category": "High Quality",
+    "note": "Clear, testable."
+  }
+}

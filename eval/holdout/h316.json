@@ -1,0 +1,19 @@
+{
+  "id": 316,
+  "title": "Return total in cents from orders endpoint",
+  "type": "Task",
+  "description": "Change the /orders endpoint to return total_cents (integer) instead of total (decimal), and update the web client to match.",
+  "acceptance_criteria": [
+    "Endpoint returns total_cents as an integer",
+    "Web client displays the right amount"
+  ],
+  "tags": [
+    "orders",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Requires Manual Review",
+    "known_gaps": []
+  },
+  "_note": "Breaking change for any other consumer. Wording avoids rules.py keywords; tests the LLM."
+}

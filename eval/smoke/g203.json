@@ -1,0 +1,16 @@
+{
+  "id": 203,
+  "title": "Grant admins access to payment records",
+  "type": "Task",
+  "description": "Add an admin role permission to read all customers' payment records.",
+  "acceptance_criteria": [
+    "Admins can read payment records"
+  ],
+  "tags": [
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Requires Manual Review",
+    "known_gaps": []
+  }
+}

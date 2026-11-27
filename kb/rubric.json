@@ -1,0 +1,44 @@
+{
+  "rubric_version": "v1",
+  "categories": {
+    "High Quality": {
+      "criteria": [
+        "Description clearly explains the expected behavior",
+        "Acceptance criteria are present and testable (observable pass/fail)",
+        "No unresolved dependencies or open questions"
+      ],
+      "note": "Minor edge-case questions (e.g., expired codes, rounding) do not downgrade an item. Use High Quality when the main success and failure paths have testable criteria. Use Needs Clarification only when behavior is unclear, criteria are missing, or requirements conflict."
+    },
+    "Needs Clarification": {
+      "criteria": [
+        "Behavior is unclear or vague",
+        "A required work item component is missing (e.g., no acceptance criteria, no repro steps for a Bug)",
+        "Requirements are unclear, conflicting, or ambiguous"
+      ]
+    },
+    "Requires Manual Review": {
+      "criteria": [
+        "Changes authorization, authentication, or security behavior",
+        "Changes production infrastructure or deployment",
+        "Large refactor across multiple components",
+        "Data migration/schema change or potential breaking API change"
+      ],
+      "note": "The AI only flags these and routes to a human. It does not assess further."
+    }
+  },
+  "type_requirements": {
+    "User Story": [
+      "description",
+      "acceptance_criteria"
+    ],
+    "Bug": [
+      "description",
+      "repro_steps",
+      "expected_vs_actual"
+    ],
+    "Task": [
+      "description",
+      "clear_done_condition"
+    ]
+  }
+}

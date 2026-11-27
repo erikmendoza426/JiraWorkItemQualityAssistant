@@ -1,0 +1,20 @@
+{
+  "id": 310,
+  "title": "Make checkout error messages friendlier",
+  "type": "Task",
+  "description": "Update the error messages on the checkout page so they sound friendlier.",
+  "acceptance_criteria": [],
+  "tags": [
+    "checkout",
+    "ui",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Needs Clarification",
+    "known_gaps": [
+      "Which messages are in scope",
+      "No new copy provided or approver for wording",
+      "No done condition"
+    ]
+  }
+}

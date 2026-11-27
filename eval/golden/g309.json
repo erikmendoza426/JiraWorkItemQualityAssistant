@@ -1,0 +1,22 @@
+{
+  "id": 309,
+  "title": "Free shipping threshold",
+  "type": "User Story",
+  "description": "As a shopper I want free shipping on large orders so that I save money.",
+  "acceptance_criteria": [
+    "Orders of $50 or more get free shipping",
+    "Shipping is always $5.99 per order",
+    "Shipping cost is shown before payment"
+  ],
+  "tags": [
+    "checkout",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Needs Clarification",
+    "known_gaps": [
+      "Conflicting criteria: free shipping over $50 vs always $5.99",
+      "Unclear whether threshold applies before or after discounts"
+    ]
+  }
+}

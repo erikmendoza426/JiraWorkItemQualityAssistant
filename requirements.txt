@@ -1,0 +1,8 @@
+google-genai
+jsonschema
+pyyaml
+requests
+python-dotenv
+google-adk
+fastapi
+uvicorn

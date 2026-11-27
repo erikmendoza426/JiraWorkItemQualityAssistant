@@ -1,0 +1,20 @@
+{
+  "id": 314,
+  "title": "Add 'keep me logged in' option",
+  "type": "User Story",
+  "description": "As a shopper I want to stay logged in on my device for 30 days so that I don't have to sign in every time.",
+  "acceptance_criteria": [
+    "A 'Keep me logged in' checkbox appears on the sign-in page",
+    "When checked, the user stays signed in for 30 days",
+    "When unchecked, the session ends when the browser closes"
+  ],
+  "tags": [
+    "accounts",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Requires Manual Review",
+    "known_gaps": []
+  },
+  "_note": "Changes authentication/session behavior but uses no rules.py keywords. Tests the LLM without the rule override."
+}

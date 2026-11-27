@@ -1,0 +1,20 @@
+{
+  "id": 311,
+  "title": "Order notifications",
+  "type": "User Story",
+  "description": "As a shopper I want notifications about my order so that I know what's going on.",
+  "acceptance_criteria": [],
+  "tags": [
+    "orders",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "Needs Clarification",
+    "known_gaps": [
+      "Which events trigger notifications",
+      "Which channels (email, push, SMS)",
+      "No acceptance criteria",
+      "Opt-out behavior unknown"
+    ]
+  }
+}

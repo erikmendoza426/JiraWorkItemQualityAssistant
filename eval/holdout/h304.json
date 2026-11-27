@@ -1,0 +1,19 @@
+{
+  "id": 304,
+  "title": "Add unit tests for discount calculator",
+  "type": "Task",
+  "description": "The discount calculator has no tests. Add unit tests covering: percentage code, fixed-amount code, code larger than the order total, expired code, and two codes on one order.",
+  "acceptance_criteria": [
+    "Each of the five cases has at least one test",
+    "Tests run in CI and pass",
+    "Coverage of discount_calculator module is at least 90%"
+  ],
+  "tags": [
+    "testing",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "High Quality",
+    "known_gaps": []
+  }
+}

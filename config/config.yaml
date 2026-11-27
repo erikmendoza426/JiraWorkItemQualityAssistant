@@ -1,0 +1,24 @@
+# Vertex AI settings
+project: REPLACE_WITH_GCP_PROJECT_ID
+location: global
+# Pick a Gemini model from Vertex AI Model Garden (a Flash model is cheapest for development).
+model: gemini-3-flash-preview
+rubric_version: "v1"
+top_k: 3
+# Gemini "thinking" tokens can count against this limit.
+max_output_tokens: 4096
+temperature: 0.0
+max_retries: 1
+kb_dir: kb
+# Only these fields are ever sent to the model.
+allowed_fields: [id, title, description, acceptance_criteria, tags, type, area_path, iteration_path, linked_items]
+# Rate-limit handling (Vertex 429 RESOURCE_EXHAUSTED)
+min_seconds_between_calls: 2
+backoff_start_seconds: 5
+backoff_max_tries: 6
+# Jira automation (poller)
+jira_project: KAN
+review_label: needs-refinement     # label a human adds to request a review
+tests_label: ac-approved           # label a human adds once acceptance criteria are approved
+poll_seconds: 30
+max_failures_per_issue: 3

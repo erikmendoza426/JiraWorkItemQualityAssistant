@@ -1,0 +1,20 @@
+{
+  "id": 305,
+  "title": "Email warehouse when stock is low",
+  "type": "User Story",
+  "description": "As a warehouse manager I want an email when an item's stock falls below its reorder threshold so that I can restock before it sells out.",
+  "acceptance_criteria": [
+    "When stock drops below the item's reorder threshold, one email is sent to the warehouse inbox",
+    "The email lists SKU, item name, current stock, and threshold",
+    "No further email is sent for the same item until stock goes back above the threshold",
+    "If the email fails to send, the failure is logged and retried once"
+  ],
+  "tags": [
+    "inventory",
+    "needs-refinement"
+  ],
+  "_answer": {
+    "category": "High Quality",
+    "known_gaps": []
+  }
+}

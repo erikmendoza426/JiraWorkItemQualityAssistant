@@ -1,0 +1,18 @@
+{
+  "id": 101,
+  "title": "Add item to cart",
+  "type": "User Story",
+  "description": "As a shopper I want to add an in-stock item to my cart so that I can purchase it later.",
+  "acceptance_criteria": [
+    "Adding an in-stock item increases cart count by the chosen quantity",
+    "Adding an out-of-stock item shows an error message and leaves cart unchanged",
+    "Quantity must be between 1 and 10"
+  ],
+  "tags": [
+    "cart"
+  ],
+  "outcome": {
+    "category": "High Quality",
+    "note": "Testable criteria, clear behavior."
+  }
+}

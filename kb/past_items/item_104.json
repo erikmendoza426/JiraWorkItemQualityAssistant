@@ -1,0 +1,18 @@
+{
+  "id": 104,
+  "title": "Change JWT signing algorithm and rotate keys",
+  "type": "Task",
+  "description": "Switch token signing from HS256 to RS256 and rotate production signing keys.",
+  "acceptance_criteria": [
+    "Tokens signed with RS256"
+  ],
+  "tags": [
+    "auth",
+    "needs-refinement"
+  ],
+  "outcome": {
+    "category": "Requires Manual Review",
+    "gaps": [],
+    "note": "Authentication/security + production keys; routed to security lead."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "definition_of_done": [
+    "Acceptance criteria are met and verified",
+    "Unit tests added or updated for new behavior",
+    "Code reviewed and approved by at least one teammate",
+    "No new critical lint or security warnings",
+    "API/documentation updated if behavior or contracts changed",
+    "Deployed to staging and smoke-tested"
+  ]
+}
